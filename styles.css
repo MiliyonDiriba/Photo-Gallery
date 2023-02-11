@@ -1,11 +1,7 @@
 * {
     box-sizing: border-box;
 }
-.gallery img {
-    width:100%;
-    max-width:350px;
-    height: 350px;
-    }
+
     body {
         margin:0;
         font-family:sans-serif;
@@ -19,3 +15,15 @@
   color:#fff;
   border-bottom:4px solid #fdb347;
 }
+.gallery {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery img {
+  width:100%;
+  max-width:350px;
+  height: 350px;
+  }
