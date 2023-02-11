@@ -24,9 +24,16 @@ body {
   padding:20px 10px;
   max-width:1400px;
   margin:0 auto;
+  gap: 16px;
 }
 .gallery img {
   width:100%;
   max-width:350px;
   height: 350px;
+  object-fit: cover;
+  border-radius:10px;
+  }
+  .gallery::after {
+    content: "";
+    width: 350px;
   }
